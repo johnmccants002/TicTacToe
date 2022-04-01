@@ -1,0 +1,56 @@
+body {
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(90deg, rgb(14, 8, 131) 0%, rgb(57, 57, 219) 35%, rgba(0,212,255,1) 100%);
+    
+}
+h1 {
+    font-family: "Permanent Marker", cursive;
+    font-size: 72px;
+    color: white;
+    
+}
+section {
+    text-align: center;
+    
+}
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+    border-radius: 5%;
+    border: 10px solid transparent;
+  border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+  border-image-slice: 1;
+  
+}
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #ffffff;
+    cursor: pointer;
+line-height: 100px;
+    font-size: 60px;
+    color: #ffffff;
+    background-color: #d83bd0;
+    border-radius: 5px;
+  
+}
+
+button {
+border-radius: 50px;
+height: 100px;
+width: 300px;
+font-size: 32px;
+color: rgba(9,9,121,1);
+border-color: rgba(9,9,121,1);
+border-width: 5px;
+
+}
+
+.selected {
+    border: solid;
+    border-color: hotpink;
+    border-width: thick;
+}

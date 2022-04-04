@@ -41,6 +41,9 @@ function getRandomArbitrary(min, max) {
     return Math.random() * (max - min) + min;
   }
 
+
+
+
 function computerChoice() {
     fillValue = "O"  
     let number = remainingMoves.length - 1;
